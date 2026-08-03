@@ -1,0 +1,45 @@
+# Artefactos de compilación del emisor en C++
+emisor/build/
+emisor/emisor
+emisor/emisor.exe
+*.o
+*.obj
+*.out
+*.exe
+
+# Entorno virtual y archivos temporales de Python
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+
+# Herramientas auxiliares que no forman parte de los entregables
+analisis/generar_capturas.py
+analisis/matriz_pruebas.py
+
+# Capturas de consola; ya se encuentran incrustadas dentro del informe en PDF
+figures/capturas/
+
+# Archivos auxiliares generados al compilar el informe en LaTeX
+*.aux
+*.log
+*.toc
+*.lof
+*.lot
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.bbl
+*.blg
+*.nav
+*.snm
+*.vrb
+
+# Archivos del sistema operativo y de los editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
